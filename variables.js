@@ -3,6 +3,7 @@
  * In this file you should define the following variables with the exact names
  *
  * 1. fullName      -> assign it a value of your full name
+ 
  * 2. yearOfBirth   -> assign it a value of your year of birth
  * 3. hobby         -> assign it a value of your favorite hobby
  * 4. funFact       -> assign it a value of some fun fact about yourself
@@ -10,7 +11,11 @@
  */
 
 // Part 1 answer 👇🏻 ...
-
+const fullName ="'batol alashwak";
+const hobby= "bulding lego";
+const yearOfBirth = 1996;
+const funFact =" at the beging of my study journy i used to hate coding ";
+const image = "https://images.app.goo.gl/Uck7nyBrLEroLhNx8";
 /**
  * Part 2: String Interpolation
  * Create the following new variables that interpolate
@@ -24,9 +29,10 @@
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const ageString =
-// const hobbyString =
+const fullNameString = `My name is ${fullName}`;
+
+const ageString = `I am ${2024- yearOfBirth}`;
+const hobbyString = `My hobby is ${hobby}`;
 
 /**
  * Part 3: Re-assignment
@@ -52,14 +58,14 @@ function decrementBy2() {
 // TODO: Uncomment these variables as you work on them
 // Make sure they're all uncommented before you push your solution!
 module.exports = {
-  // fullName,
-  // yearOfBirth,
-  // hobby,
-  // funFact,
-  // image,
-  // fullNameString,
-  // ageString,
-  // hobbyString,
+  fullName,
+  yearOfBirth,
+  hobby,
+  funFact,
+  image,
+  fullNameString,
+  ageString,
+  hobbyString,
   incrementBy1,
   incrementBy2,
   decrementBy1,
