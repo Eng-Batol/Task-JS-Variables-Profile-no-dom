@@ -1,3 +1,4 @@
+hi
 # JS-Variables
 
 ## Instructions
